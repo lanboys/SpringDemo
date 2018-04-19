@@ -6,7 +6,6 @@ package com.bing.lan.spring.day1._02_factory;
 
 class SomeBean {
 
-
     public void sayHello() {
         System.out.println("sayHello(): ");
     }

@@ -8,6 +8,7 @@
         </fileset>
         <fileset id="fileset2" name="ApplicationContext" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day1/_03_container/ContainerTest-context.xml</file>
         </fileset>
       </configuration>
     </facet>

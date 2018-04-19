@@ -8,7 +8,7 @@
     <!--<import resource="com/bing/lan/spring/day1/_01_helloWorld/HelloWorldTest-context.xml"/>-->
 
 
-    <import resource="classpath:com/bing/lan/spring/day1/hello/HelloWorldTest-context.xml"/>
+    <import resource="classpath:com/bing/lan/spring/day1/_01_helloWorld/HelloWorldTest-context.xml"/>
     <!--<import resource=""/>-->
 
 </beans>
