@@ -4,11 +4,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <!-- 省略 classpath -->
-    <!--<import resource="com/bing/lan/spring/day1/_01_helloWorld/HelloWorldTest-context.xml"/>-->
-
-
-    <import resource="classpath:com/bing/lan/spring/day1/hello/HelloWorldTest-context.xml"/>
-    <!--<import resource=""/>-->
+    <bean id="someBean" class="com.bing.lan.spring.day1._02_factory.SomeBean"/>
 
 </beans>
