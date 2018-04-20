@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- 默认方法 -->
+    <bean id="someBean1" class="com.bing.lan.spring.day1._04_beanCreate.SomeBean"/>
+
+    <!-- 本身作为工厂 -->
+    <!--<bean id="someBean1" class="com.bing.lan.spring.day1._04_beanCreate.SomeBean" factory-method="create"/>-->
+
+    <!-- 静态工厂方法 -->
+    <!--  Class.forName(class).getMethod(factory-method).invoke(null,null);  -->
+    <bean id="someBean2" class="com.bing.lan.spring.day1._04_beanCreate.SomeBeanFactory"
+          factory-method="staticCreate"/>
+
+    <!-- 实例工厂方法 -->
+    <bean id="someBeanFactory" class="com.bing.lan.spring.day1._04_beanCreate.SomeBeanFactory"/>
+    <bean id="someBean3" class="com.bing.lan.spring.day1._04_beanCreate.SomeBeanFactory"
+          factory-method="create" factory-bean="someBeanFactory"/>
+
+    <!--  实现FactoryBean接口                                       -->
+    <!--  if(bean instanceof FactoryBean){                          -->
+    <!--        FactoryBean factory=(FactoryBean)bean;              -->
+    <!--        Object realBean=factory.getObject();                -->
+    <!--  }                                                         -->
+    <bean id="someBean4" class="com.bing.lan.spring.day1._04_beanCreate.SomeBeanFactoryBean"/>
+
+
+</beans>

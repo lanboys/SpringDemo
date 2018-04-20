@@ -10,6 +10,9 @@
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
           <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day1/_03_container/ContainerTest-context.xml</file>
         </fileset>
+        <fileset id="fileset3" name="BeanCreateTest Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day1/_04_beanCreate/BeanCreateTest-context.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
