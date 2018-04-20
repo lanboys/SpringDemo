@@ -16,6 +16,9 @@
         <fileset id="fileset4" name="ScopeTest Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day1/_05_scope/ScopeTest-context.xml</file>
         </fileset>
+        <fileset id="fileset5" name="InitDestroyMethodTest Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day1/_06_init_destroy/InitDestroyMethodTest-context.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
