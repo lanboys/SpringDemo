@@ -19,6 +19,9 @@
         <fileset id="fileset5" name="InitDestroyMethodTest Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day1/_06_init_destroy/InitDestroyMethodTest-context.xml</file>
         </fileset>
+        <fileset id="fileset6" name="DiTest Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day1/di/DiTest-context.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
