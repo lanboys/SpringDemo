@@ -21,11 +21,13 @@
     <bean id="someBean3" class="com.bing.lan.spring.day1._04_beanCreate.SomeBeanFactory"
           factory-method="create" factory-bean="someBeanFactory"/>
 
-    <!--  实现FactoryBean接口                                       -->
-    <!--  if(bean instanceof FactoryBean){                          -->
-    <!--        FactoryBean factory=(FactoryBean)bean;              -->
-    <!--        Object realBean=factory.getObject();                -->
-    <!--  }                                                         -->
+    <!--
+             实现FactoryBean接口
+               if(bean instanceof FactoryBean){
+                     FactoryBean factory=(FactoryBean)bean;
+                     Object realBean=factory.getObject();
+               }
+    -->
     <bean id="someBean4" class="com.bing.lan.spring.day1._04_beanCreate.SomeBeanFactoryBean"/>
 
 

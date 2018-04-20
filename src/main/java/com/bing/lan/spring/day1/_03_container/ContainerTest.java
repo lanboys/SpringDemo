@@ -20,6 +20,7 @@ public class ContainerTest {
     /**
      * 使用Spring测试的时候，都是创建 ApplicationContext 这个容器
      * ApplicationContext 启动的时候就实例化了所以需要管理的bean
+     * 但是 scope = prototype 时不会初始化
      *
      * 对于ApplicationContext:
      *      1,可以在bean元素配置lazy-init=true来让bean延迟实例化;
