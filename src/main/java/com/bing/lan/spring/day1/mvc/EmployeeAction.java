@@ -6,12 +6,16 @@ package com.bing.lan.spring.day1.mvc;
 
 public class EmployeeAction {
 
-    private IEmployeeService service = new EmployeeServiceImpl();
+    private IEmployeeService employeeService;
+
+    public void setEmployeeService(IEmployeeService employeeService) {
+        this.employeeService = employeeService;
+    }
 
     public String save(String name, String phone) {
         Employee employee = new Employee();
         employee.setName(name);
         employee.setPhone(phone);
-        return service.save(employee);
+        return employeeService.save(employee);
     }
 }

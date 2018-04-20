@@ -22,6 +22,9 @@
         <fileset id="fileset6" name="DiTest Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day1/di/DiTest-context.xml</file>
         </fileset>
+        <fileset id="fileset7" name="MvcTest Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/MvcTest-context.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>

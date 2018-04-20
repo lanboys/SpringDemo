@@ -6,7 +6,11 @@ package com.bing.lan.spring.day1.mvc;
 
 public class EmployeeServiceImpl implements IEmployeeService {
 
-    private IEmployeeDAO employeeDAO = new EmployeeDAOImpl();
+    private IEmployeeDAO employeeDAO;
+
+    public void setEmployeeDAO(IEmployeeDAO employeeDAO) {
+        this.employeeDAO = employeeDAO;
+    }
 
     @Override
     public String save(Employee e) {
