@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="someBean" class="com.bing.lan.spring.day1.ioc._06_init_destroy.SomeBean"
+          init-method="init"
+          destroy-method="close"
+          factory-method="create"/>
+    <!--
+        scope="prototype"
+
+        不会执行 destroy-method 因为 原型模式下，对象已经交给使用者，spring不再管理该对象
+
+    -->
+
+</beans>
