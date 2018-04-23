@@ -3,6 +3,9 @@ package com.bing.lan.spring.day2.mvc;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 /**
  * Created by 蓝兵 on 2018/4/20.
  */
@@ -17,10 +20,17 @@ public class EmployeeAction {
         this.employeeService = employeeService;
     }
 
+    @PostConstruct
+    public void init() {
+        System.out.println("init(): 初始化");
+    }
+
+    @PreDestroy
+    public void destroy() {
+        System.out.println("destroy(): 销毁方法");
+    }
+
     public String save(String name, String phone) {
-        /**
-         * 模拟请求参数
-         */
         Employee employee = new Employee();
         employee.setName(name);
         employee.setPhone(phone);
