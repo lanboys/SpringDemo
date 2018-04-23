@@ -1,4 +1,4 @@
-package com.bing.lan.spring.day2.annIoc;
+package com.bing.lan.spring.day2.annotation._01_annDi;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -8,7 +8,10 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration
-public class AnnIocTest {
+public class AnnDiTest {
+
+    //@Autowired
+    //private ApplicationContext mBeanFactory;
 
     @Autowired
     private SomeBean someBean;

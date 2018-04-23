@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 
 /**
- * 传统 mvc 应用
+ * 传统 _03_mvc 应用
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @Configuration

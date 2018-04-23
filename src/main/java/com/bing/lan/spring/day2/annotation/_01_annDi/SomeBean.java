@@ -1,4 +1,4 @@
-package com.bing.lan.spring.day2.annDi;
+package com.bing.lan.spring.day2.annotation._01_annDi;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

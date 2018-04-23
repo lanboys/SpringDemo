@@ -1,13 +1,11 @@
-package com.bing.lan.spring.day2.annIoc;
-
-import org.springframework.stereotype.Component;
+package com.bing.lan.spring.day2.annotation._01_annDi;
 
 import java.net.URL;
 
 /**
  * Created by 蓝兵 on 2018/4/20.
  */
-@Component
+
 public class OtherBean {
 
     private String name="xiaobing";

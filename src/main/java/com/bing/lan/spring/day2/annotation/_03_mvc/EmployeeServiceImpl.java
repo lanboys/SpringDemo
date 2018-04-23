@@ -1,4 +1,4 @@
-package com.bing.lan.spring.day2.mvc;
+package com.bing.lan.spring.day2.annotation._03_mvc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

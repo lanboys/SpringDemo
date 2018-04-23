@@ -1,4 +1,4 @@
-package com.bing.lan.spring.day2.annIoc;
+package com.bing.lan.spring.day2.annotation._02_annIoc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
