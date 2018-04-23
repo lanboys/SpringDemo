@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631817ee-c47b-4fb4-82d1-9622c2af3156" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeDAO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeDAOImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/AnnDiTest-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/AnnDiTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/OtherBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/SomeBean.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo.iml" afterPath="$PROJECT_DIR$/SpringDemo.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/MvcTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/MvcTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EmployeeAction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeAction.java">
+      <file leaf-file-name="SomeBean.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/SomeBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="10" column="70" lean-forward="false" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
-              <folding />
+            <state relative-caret-position="212">
+              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,9 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/di/DiBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/di/di.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bing/lan/spring/di/DiBeanTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/di/di-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/hello/IHelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/hello/HelloWorld.java" />
@@ -95,10 +97,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/MvcTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/MvcTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/MvcTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/AnnDiTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/AnnDiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/OtherBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/SomeBean.java" />
       </list>
     </option>
   </component>
@@ -132,7 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,6 +170,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="day1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -172,8 +187,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="day1" type="462c0819:PsiDirectoryNode" />
-              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -181,18 +197,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-              <item name="ioc" type="462c0819:PsiDirectoryNode" />
-              <item name="_06_init_destroy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="annDi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -218,7 +224,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
@@ -251,11 +257,11 @@
       <recent name="com.bing.lan.spring.day1._03_container" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day2\annDi" />
       <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day1\mvc" />
       <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day1\di" />
       <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day1\_06_init_destory" />
       <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day1\_05_scope" />
-      <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day1\_04_beanCreate" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -270,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MvcTest">
+  <component name="RunManager" selected="JUnit.AnnDiTest.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -292,18 +298,43 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="DiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnnDiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.bing.lan.spring.day1.di.*" />
+          <option name="PATTERN" value="com.bing.lan.spring.day2.annDi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SpringDemo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.bing.lan.spring.day1.di" />
-      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day1.di.DiTest" />
+      <option name="PACKAGE_NAME" value="com.bing.lan.spring.day2.annDi" />
+      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day2.annDi.AnnDiTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AnnDiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bing.lan.spring.day2.annDi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bing.lan.spring.day2.annDi" />
+      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day2.annDi.AnnDiTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -317,18 +348,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="InitDestroyMethodTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.bing.lan.spring.day1._06_init_destroy.*" />
+          <option name="PATTERN" value="com.bing.lan.spring.day1.di.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SpringDemo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.bing.lan.spring.day1._06_init_destroy" />
-      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day1._06_init_destroy.InitDestroyMethodTest" />
+      <option name="PACKAGE_NAME" value="com.bing.lan.spring.day1.di" />
+      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day1.di.DiTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -392,31 +423,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ScopeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bing.lan.spring.day1._05_scope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SpringDemo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.bing.lan.spring.day1._05_scope" />
-      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day1._05_scope.ScopeTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -424,19 +430,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ScopeTest.test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.InitDestroyMethodTest.test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DiTest.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MvcTest.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MvcTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DiTest.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MvcTest.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MvcTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AnnDiTest.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AnnDiTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MvcTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MvcTest.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DiTest.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.InitDestroyMethodTest.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ScopeTest.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AnnDiTest.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AnnDiTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MvcTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MvcTest.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DiTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -456,44 +462,46 @@
       <workItem from="1523933264225" duration="1636000" />
       <workItem from="1524104870972" duration="7339000" />
       <workItem from="1524122538496" duration="3153000" />
-      <workItem from="1524194424466" duration="18520000" />
+      <workItem from="1524194424466" duration="18615000" />
+      <workItem from="1524228769200" duration="5000" />
+      <workItem from="1524453829443" duration="5109000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiTest_test - 2018.04.20 at 18h 26m 00s.xml">
-      <configuration name="DiTest.test" configurationId="JUnit" />
+    <history-entry file="AnnDiTest - 2018.04.23 at 12h 21m 06s.xml">
+      <configuration name="AnnDiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiTest_test - 2018.04.20 at 18h 27m 32s.xml">
-      <configuration name="DiTest.test" configurationId="JUnit" />
+    <history-entry file="AnnDiTest - 2018.04.23 at 12h 24m 02s.xml">
+      <configuration name="AnnDiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiTest_test - 2018.04.20 at 18h 31m 57s.xml">
-      <configuration name="DiTest.test" configurationId="JUnit" />
+    <history-entry file="AnnDiTest - 2018.04.23 at 12h 24m 28s.xml">
+      <configuration name="AnnDiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiTest_test - 2018.04.20 at 18h 33m 10s.xml">
-      <configuration name="DiTest.test" configurationId="JUnit" />
+    <history-entry file="AnnDiTest - 2018.04.23 at 12h 25m 52s.xml">
+      <configuration name="AnnDiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTest_test - 2018.04.20 at 19h 11m 52s.xml">
-      <configuration name="EmployeeTest.test" configurationId="JUnit" />
+    <history-entry file="AnnDiTest_test - 2018.04.23 at 11h 51m 47s.xml">
+      <configuration name="AnnDiTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MvcTest - 2018.04.20 at 20h 45m 38s.xml">
+    <history-entry file="AnnDiTest_test - 2018.04.23 at 13h 47m 43s.xml">
+      <configuration name="AnnDiTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnDiTest_test - 2018.04.23 at 14h 57m 45s.xml">
+      <configuration name="AnnDiTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnDiTest_test - 2018.04.23 at 14h 57m 57s.xml">
+      <configuration name="AnnDiTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MvcTest - 2018.04.23 at 11h 29m 38s.xml">
       <configuration name="MvcTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MvcTest - 2018.04.20 at 20h 49m 38s.xml">
-      <configuration name="MvcTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MvcTest_test - 2018.04.20 at 20h 33m 33s.xml">
-      <configuration name="MvcTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MvcTest_test - 2018.04.20 at 20h 34m 43s.xml">
-      <configuration name="MvcTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MvcTest_test - 2018.04.20 at 20h 38m 12s.xml">
+    <history-entry file="MvcTest_test - 2018.04.23 at 11h 27m 56s.xml">
       <configuration name="MvcTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34028000" />
+    <option name="totallyTimeSpent" value="39237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -507,15 +515,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30871493" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3072378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27561608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2853437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967575" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -527,6 +534,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11932555" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,58 +557,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/ioc/_01_helloWorld/HelloWorldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#1043#1044#0" expanded="false" />
-            <element signature="e#1080#1081#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/ioc/_01_helloWorld/HelloWorldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#1043#1044#0" expanded="false" />
-            <element signature="e#1080#1081#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/di/di-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/di/DiBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bing/lan/spring/di/DiBeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/di/di-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -633,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,10 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#140#141#0" expanded="false" />
-            <element signature="e#194#195#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,10 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="e#1043#1044#0" expanded="false" />
-            <element signature="e#1080#1081#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,10 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,9 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
           <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,12 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#434#435#0" expanded="false" />
-            <element signature="e#471#472#0" expanded="false" />
-            <element signature="e#521#522#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,9 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,14 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#517#518#0" expanded="false" />
-            <element signature="e#544#545#0" expanded="false" />
-            <element signature="e#595#596#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,15 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/di/DiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,20 +818,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/di/DiTest-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/ioc/_06_init_destroy/InitDestroyMethodTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -943,39 +844,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/MvcTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/IEmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="420">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/IEmployeeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding>
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,11 +860,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/EmployeeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="70" lean-forward="false" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+        <state relative-caret-position="210">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="e#285#286#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/IEmployeeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/IEmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/MvcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/di/DiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/di/DiTest-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-beans-4.3.16.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/AnnDiTest-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-beans-4.3.16.RELEASE.jar!/org/springframework/beans/factory/annotation/Qualifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/OtherBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/AnnDiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/SomeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

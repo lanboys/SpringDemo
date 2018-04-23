@@ -26,6 +26,6 @@ public class MvcTest {
     @Test
     public void test() {
         employeeAction = mBeanFactory.getBean("employeeAction", EmployeeAction.class);
-        employeeAction.save("xiaoming", "13556004824");
+        employeeAction.save("xiaoming", "13556224424");
     }
 }
