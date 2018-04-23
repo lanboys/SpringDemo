@@ -34,6 +34,9 @@
         <fileset id="fileset10" name="MvcTest Context (2)" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day2/mvc/MvcTest-context.xml</file>
         </fileset>
+        <fileset id="fileset11" name="MvcTest Context (3)" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_01_staticProxy/MvcTest-context.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
