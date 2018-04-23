@@ -28,6 +28,9 @@
         <fileset id="fileset8" name="AnnDiTest Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day2/annDi/AnnDiTest-context.xml</file>
         </fileset>
+        <fileset id="fileset9" name="AnnIocTest Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day2/annIoc/AnnIocTest-context.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
