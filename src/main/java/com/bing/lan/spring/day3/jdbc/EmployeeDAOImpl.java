@@ -1,47 +1,44 @@
 package com.bing.lan.spring.day3.jdbc;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.ResultSetExtractor;
 import org.springframework.jdbc.core.RowMapper;
-import org.springframework.stereotype.Repository;
+import org.springframework.jdbc.core.support.JdbcDaoSupport;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-import javax.sql.DataSource;
-
 /**
  * Created by 蓝兵 on 2018/4/20.
  */
 
-@Repository
-public class EmployeeDAOImpl implements IEmployeeDAO {
+//@Repository
+public class EmployeeDAOImpl extends JdbcDaoSupport implements IEmployeeDAO {
 
-    JdbcTemplate jdbcTemplate;
-
-    @Autowired
-    public void setDataSource(DataSource dataSource) {
-        jdbcTemplate = new JdbcTemplate(dataSource);
-    }
+    //JdbcTemplate getJdbcTemplate();
+    //
+    //@Autowired
+    //public void setDataSource(DataSource dataSource) {
+    //    getJdbcTemplate() = new JdbcTemplate(dataSource);
+    //}
 
     @Override
     public void save(Employee e) {
-        jdbcTemplate.update(
+        
+        getJdbcTemplate().update(
                 "INSERT INTO employee(name,phone) VALUES (?,?)",
                 e.getName(), e.getPhone());
     }
 
     @Override
     public void delete(Long id) {
-        jdbcTemplate.update("DELETE FROM employee WHERE id = ?", id);
+        getJdbcTemplate().update("DELETE FROM employee WHERE id = ?", id);
     }
 
     @Override
     public void update(Employee e) {
-        jdbcTemplate.update(
+        getJdbcTemplate().update(
                 "UPDATE employee SET name = ?, phone =? WHERE id =?",
                 e.getName(),
                 e.getPhone(),
@@ -50,7 +47,7 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
 
     @Override
     public Employee get(Long id) {
-        return jdbcTemplate.query(
+        return getJdbcTemplate().query(
                 "SELECT * FROM employee WHERE id = ?", new ResultSetExtractor<Employee>() {
                     @Override
                     public Employee extractData(ResultSet resultSet) throws SQLException, DataAccessException {
@@ -65,7 +62,7 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
 
     @Override
     public Employee getByPhone(String phone) {
-        return jdbcTemplate.query(
+        return getJdbcTemplate().query(
                 "SELECT * FROM employee WHERE phone = ?", new ResultSetExtractor<Employee>() {
                     @Override
                     public Employee extractData(ResultSet resultSet) throws SQLException, DataAccessException {
@@ -87,7 +84,7 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
 
     @Override
     public List<Employee> list() {
-        //List<Employee> query = jdbcTemplate.query(
+        //List<Employee> query = getJdbcTemplate().query(
         //        "SELECT * FROM employee", new ResultSetExtractor<List<Employee>>() {
         //            @Override
         //            public List<Employee> extractData(ResultSet resultSet) throws SQLException, DataAccessException {
@@ -99,7 +96,7 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
         //                return list;
         //            }
         //        });
-        List<Employee> query = jdbcTemplate.query(
+        List<Employee> query = getJdbcTemplate().query(
                 "SELECT * FROM employee", new RowMapper<Employee>() {
                     @Override
                     public Employee mapRow(ResultSet resultSet, int i) throws SQLException {
