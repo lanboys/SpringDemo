@@ -49,6 +49,9 @@
         <fileset id="fileset15" name="AnnAopTest Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_05_annAop/AnnAopTest-context.xml</file>
         </fileset>
+        <fileset id="fileset16" name="JdbcTest Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day3/jdbc/JdbcTest-context.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
@@ -65,5 +68,7 @@
     <orderEntry type="library" name="junit-4.12" level="project" />
     <orderEntry type="library" name="hamcrest-core-1.3" level="project" />
     <orderEntry type="library" name="org.aspectj:aspectjweaver:1.9.1" level="project" />
+    <orderEntry type="library" name="com.alibaba:druid:1.1.9" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.26-bin" level="project" />
   </component>
 </module>
