@@ -25,9 +25,9 @@ public class EmployeeAction {
         this.employeeService = (IEmployeeService) Proxy.newProxyInstance(employeeService.getClass().getClassLoader(), new Class[]{IEmployeeService.class}, new InvocationHandler() {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                System.out.println("save(): jdk动态代理 开启事务：" + System.currentTimeMillis());
+                System.out.println("invoke(): jdk动态代理 开启事务：" + System.currentTimeMillis());
                 Object invoke = method.invoke(employeeService, args);
-                System.out.println("save(): jdk动态代理 提交事务：" + System.currentTimeMillis());
+                System.out.println("invoke(): jdk动态代理 提交事务：" + System.currentTimeMillis());
                 return invoke;
             }
         });
