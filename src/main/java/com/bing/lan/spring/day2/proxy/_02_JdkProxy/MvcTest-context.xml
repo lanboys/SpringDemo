@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--<bean id="employeeAction" class="com.bing.lan.spring.day1._03_mvc.EmployeeAction" >-->
+        <!--<property name="employeeService" ref="employeeService"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="employeeService" class="com.bing.lan.spring.day1._03_mvc.EmployeeServiceImpl" >-->
+        <!--<property name="employeeDAO" ref="employeeDAO"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="employeeDAO" class="com.bing.lan.spring.day1._03_mvc.EmployeeDAOImpl" >-->
+    <!--</bean>-->
+
+    <context:component-scan base-package="com.bing.lan.spring.day2.proxy._02_JdkProxy"/>
+
+
+</beans>

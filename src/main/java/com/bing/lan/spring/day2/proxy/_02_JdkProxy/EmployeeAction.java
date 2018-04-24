@@ -1,7 +1,11 @@
-package com.bing.lan.spring.day2.proxy._01_staticProxy;
+package com.bing.lan.spring.day2.proxy._02_JdkProxy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -17,7 +21,16 @@ public class EmployeeAction {
 
     @Autowired
     public void setEmployeeService(IEmployeeService employeeService) {
-        this.employeeService = employeeService;
+        //this.employeeService = employeeService;
+        this.employeeService = (IEmployeeService) Proxy.newProxyInstance(employeeService.getClass().getClassLoader(), new Class[]{IEmployeeService.class}, new InvocationHandler() {
+            @Override
+            public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                System.out.println("save(): jdk动态代理 开启事务：" + System.currentTimeMillis());
+                Object invoke = method.invoke(employeeService, args);
+                System.out.println("save(): jdk动态代理 提交事务：" + System.currentTimeMillis());
+                return invoke;
+            }
+        });
     }
 
     @PostConstruct

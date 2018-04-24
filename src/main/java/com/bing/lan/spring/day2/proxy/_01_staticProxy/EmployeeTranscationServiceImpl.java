@@ -16,9 +16,9 @@ public class EmployeeTranscationServiceImpl implements IEmployeeService {
 
     @Override
     public String save(Employee e) {
-        System.out.println("save(): 存储开始时间：" + System.currentTimeMillis());
+        System.out.println("save(): 静态代理 开启事务：" + System.currentTimeMillis());
         String save = target.save(e);
-        System.out.println("save(): 存储结束时间：" + System.currentTimeMillis());
+        System.out.println("save(): 静态代理 提交事务：" + System.currentTimeMillis());
         return save;
     }
 }
