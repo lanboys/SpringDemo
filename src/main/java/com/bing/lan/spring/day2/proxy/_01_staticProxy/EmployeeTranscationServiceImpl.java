@@ -12,7 +12,7 @@ public class EmployeeTranscationServiceImpl implements IEmployeeService {
 
     @Autowired
     @Qualifier("realEmployService")
-    EmployeeServiceImpl target;
+    IEmployeeService target;
 
     @Override
     public String save(Employee e) {
