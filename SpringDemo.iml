@@ -46,6 +46,9 @@
         <fileset id="fileset14" name="AopTest Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/AopTest-context.xml</file>
         </fileset>
+        <fileset id="fileset15" name="AnnAopTest Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_05_annAop/AnnAopTest-context.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>

@@ -1,4 +1,4 @@
-package com.bing.lan.spring.day2.proxy._04_aop;
+package com.bing.lan.spring.day2.proxy._05_annAop;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 /**
  * Created by 蓝兵 on 2018/4/20.
  */
-@Service("realEmployService")
+@Service()
 public class EmployeeServiceImpl implements IEmployeeService {
 
     private IEmployeeDAO employeeDAO;
