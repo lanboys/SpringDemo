@@ -1,4 +1,4 @@
-package com.bing.lan.spring.day2.annotation._03_mvc;
+package com.bing.lan.spring.day2.proxy._04_aop;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,11 +11,11 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 
 /**
- * 全注解 _03_mvc 应用
+ * 全注解 _03_annMvc 应用
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @Configuration
-public class MvcTest {
+public class AopTest {
 
     @Autowired
     private EmployeeAction employeeAction;

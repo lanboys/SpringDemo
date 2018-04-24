@@ -11,11 +11,11 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 
 /**
- * 全注解 _03_mvc 应用
+ * 全注解 _03_annMvc 应用
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @Configuration
-public class MvcTest {
+public class CglibTest {
 
     @Autowired
     private EmployeeAction employeeAction;

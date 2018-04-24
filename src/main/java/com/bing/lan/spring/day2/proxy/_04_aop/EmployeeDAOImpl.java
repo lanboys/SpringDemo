@@ -1,4 +1,4 @@
-package com.bing.lan.spring.day2.annotation._03_mvc;
+package com.bing.lan.spring.day2.proxy._04_aop;
 
 import org.springframework.stereotype.Repository;
 

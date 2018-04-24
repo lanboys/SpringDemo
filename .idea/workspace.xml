@@ -2,17 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631817ee-c47b-4fb4-82d1-9622c2af3156" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/EmployeeAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/EmployeeDAOImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/EmployeeServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/IEmployeeDAO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/IEmployeeService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/MvcTest-context.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/MvcTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/AopTest-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/AopTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/EmployeeAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/EmployeeDAOImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/EmployeeServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/IEmployeeDAO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/IEmployeeService.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SpringDemo.iml" afterPath="$PROJECT_DIR$/SpringDemo.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_02_JdkProxy/EmployeeAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_02_JdkProxy/EmployeeAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/MvcTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/mvc/MvcTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/Employee.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/EmployeeAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/EmployeeAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/EmployeeDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/EmployeeDAOImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/EmployeeServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/EmployeeServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/IEmployeeDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/IEmployeeDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/IEmployeeService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/IEmployeeService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/MvcTest-context.xml" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/AnnMvcTest-context.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/MvcTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/AnnMvcTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_01_staticProxy/MvcTest-context.xml" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_01_staticProxy/StaticProxyTest-context.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_01_staticProxy/MvcTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_01_staticProxy/StaticProxyTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_02_JdkProxy/MvcTest-context.xml" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_02_JdkProxy/JdkProxyTest-context.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_02_JdkProxy/MvcTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_02_JdkProxy/JdkProxyTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/MvcTest-context.xml" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/CglibTest-context.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/MvcTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/CglibTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EmployeeAction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/EmployeeAction.java">
+      <file leaf-file-name="IEmployeeDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/IEmployeeDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            <state relative-caret-position="126">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -56,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/_06_init_destroy/SomeBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/_06_init_destroy/InitDestroyMethodTest-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/ioc/_06_init_destroy/InitDestroyMethodTest-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/di/DiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/di/SomeBean.java" />
@@ -107,6 +118,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/IEmployeeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_02_JdkProxy/EmployeeAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/EmployeeAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/EmployeeDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/IEmployeeDAO.java" />
       </list>
     </option>
   </component>
@@ -193,7 +206,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="day2" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -204,18 +217,6 @@
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="day2" type="462c0819:PsiDirectoryNode" />
               <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="_02_JdkProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="_03_cglibProxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,11 +253,11 @@
       <recent name="com.bing.lan.spring.day1._04_beanCreate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day2\proxy\_04_aop" />
       <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day2\proxy\_03_cglibProxy" />
       <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day2\proxy\_02_JdkProxy" />
       <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day2\proxy\_01_staticProxy" />
       <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day2" />
-      <recent name="E:\workspace\IDEA_workspace\SpringDemo\src\main\java\com\bing\lan\spring\day2\annIoc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MvcTest (3)">
+  <component name="RunManager" selected="JUnit.CglibTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -293,57 +294,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="MvcTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bing.lan.spring.day2.proxy._01_staticProxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SpringDemo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.bing.lan.spring.day2.proxy._01_staticProxy" />
-      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day2.proxy._01_staticProxy.MvcTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MvcTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bing.lan.spring.day2.proxy._02_JdkProxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SpringDemo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.bing.lan.spring.day2.proxy._02_JdkProxy" />
-      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day2.proxy._02_JdkProxy.MvcTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MvcTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CglibTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.bing.lan.spring.day2.proxy._03_cglibProxy.*" />
@@ -354,7 +305,32 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.bing.lan.spring.day2.proxy._03_cglibProxy" />
-      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day2.proxy._03_cglibProxy.MvcTest" />
+      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day2.proxy._03_cglibProxy.CglibTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="JdkProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bing.lan.spring.day2.proxy._02_JdkProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bing.lan.spring.day2.proxy._02_JdkProxy" />
+      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day2.proxy._02_JdkProxy.JdkProxyTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -418,6 +394,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="StaticProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bing.lan.spring.day2.proxy._01_staticProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bing.lan.spring.day2.proxy._01_staticProxy" />
+      <option name="MAIN_CLASS_NAME" value="com.bing.lan.spring.day2.proxy._01_staticProxy.StaticProxyTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -427,15 +428,15 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MvcTest.test" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.MvcTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MvcTest (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MvcTest (2)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MvcTest (3)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StaticProxyTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JdkProxyTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CglibTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MvcTest (3)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MvcTest (2)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MvcTest (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CglibTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JdkProxyTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StaticProxyTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.MvcTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.MvcTest.test" />
       </list>
@@ -460,7 +461,7 @@
       <workItem from="1524194424466" duration="18615000" />
       <workItem from="1524228769200" duration="5000" />
       <workItem from="1524453829443" duration="17013000" />
-      <workItem from="1524533032472" duration="5797000" />
+      <workItem from="1524533032472" duration="6299000" />
     </task>
     <servers />
   </component>
@@ -497,7 +498,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56938000" />
+    <option name="totallyTimeSpent" value="57440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -511,13 +512,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.506647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.506647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22632945" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34954605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967575" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -529,7 +531,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11932555" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,41 +577,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/ioc/_05_scope/ScopeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/ioc/_04_beanCreate/SomeBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/ioc/_04_beanCreate/BeanCreateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/ioc/_04_beanCreate/SomeBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/ioc/_03_container/SomeBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day1/ioc/_03_container/ContainerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -640,17 +606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/IEmployeeService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/IEmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/EmployeeDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -671,7 +630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
@@ -691,44 +650,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/EmployeeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/MvcTest-context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/AnnMvcTest-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="21" column="67" lean-forward="false" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/MvcTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/AnnMvcTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/IEmployeeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_mvc/EmployeeAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -737,6 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -744,6 +682,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +694,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_01_staticProxy/MvcTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_01_staticProxy/StaticProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
@@ -784,7 +723,7 @@
         <state relative-caret-position="319">
           <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -797,7 +736,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_01_staticProxy/MvcTest-context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_01_staticProxy/StaticProxyTest-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="21" column="88" lean-forward="false" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
@@ -861,7 +800,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_02_JdkProxy/MvcTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_02_JdkProxy/JdkProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
@@ -869,7 +808,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_02_JdkProxy/MvcTest-context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_02_JdkProxy/JdkProxyTest-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="21" column="85" lean-forward="false" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
@@ -922,7 +861,7 @@
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -943,7 +882,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/MvcTest-context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/CglibTest-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="21" column="87" lean-forward="false" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
@@ -951,7 +890,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/MvcTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/CglibTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
@@ -969,8 +908,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_03_cglibProxy/EmployeeAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        <state relative-caret-position="312">
+          <caret line="56" column="38" lean-forward="true" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/AopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/IEmployeeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/IEmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/proxy/_04_aop/EmployeeDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/EmployeeAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/EmployeeDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bing/lan/spring/day2/annotation/_03_annMvc/IEmployeeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
