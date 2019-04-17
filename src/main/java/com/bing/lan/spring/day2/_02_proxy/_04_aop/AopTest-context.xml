@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!--<bean id="employeeAction" class="com.bing.lan.spring.day1._03_annMvc.EmployeeAction" >-->
+    <!--<property name="employeeService" ref="employeeService"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="employeeService" class="com.bing.lan.spring.day1._03_annMvc.EmployeeServiceImpl" >-->
+    <!--<property name="employeeDAO" ref="employeeDAO"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="employeeDAO" class="com.bing.lan.spring.day1._03_annMvc.EmployeeDAOImpl" >-->
+    <!--</bean>-->
+
+    <context:component-scan base-package="com.bing.lan.spring.day2._02_proxy._04_aop"/>
+
+
+    <aop:config>
+        <aop:pointcut id="employService"
+                      expression="execution(* com.bing.lan.spring.day2._02_proxy._04_aop.*ServiceImpl.*(..))"/>
+
+        <aop:aspect ref="txManager">
+            <!-- 之前 -->
+            <aop:before method="begin" pointcut-ref="employService"/>
+
+            <!-- 正常结束之后 -->
+            <aop:after-returning method="commit" pointcut-ref="employService"/>
+
+            <!-- 抛异常 -->
+            <aop:after-throwing method="rollback" pointcut-ref="employService"
+                                throwing="throwable"/>
+
+            <!-- 相当于在finally里面 -->
+            <aop:after method="finallyInvoke" pointcut-ref="employService"/>
+
+            <!-- 环绕通知  替代上面所有 -->
+            <!--<aop:around method="around" pointcut-ref="employService"/>-->
+        </aop:aspect>
+    </aop:config>
+
+
+</beans>

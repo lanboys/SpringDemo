@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--
+
+    scope:
+
+        singleton:单例模式，默认的模式
+        prototype:原型模式，每拿一个创建一个，ApplicationContext 在启动的时候不会初始化
+        request:一般不用
+        session:一般不用
+
+    -->
+
+
+    <bean id="someBean" class="com.bing.lan.spring.day1._01_ioc._05_scope.SomeBean"
+          scope="prototype"/>
+
+</beans>

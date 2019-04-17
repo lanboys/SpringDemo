@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by 蓝兵 on 2018/4/20.
  */
-@Service()
+@Service
 public class EmployeeServiceImpl implements IEmployeeService {
 
     private IEmployeeDAO employeeDAO;

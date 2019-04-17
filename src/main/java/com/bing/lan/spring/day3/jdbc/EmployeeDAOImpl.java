@@ -4,6 +4,7 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.ResultSetExtractor;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
+import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -13,19 +14,22 @@ import java.util.List;
  * Created by 蓝兵 on 2018/4/20.
  */
 
-//@Repository
+@Repository
 public class EmployeeDAOImpl extends JdbcDaoSupport implements IEmployeeDAO {
 
-    //JdbcTemplate getJdbcTemplate();
+    //JdbcTemplate jdbcTemplate;
+    //
+    //private JdbcTemplate getJdbcTemplate() {
+    //    return jdbcTemplate;
+    //}
     //
     //@Autowired
     //public void setDataSource(DataSource dataSource) {
-    //    getJdbcTemplate() = new JdbcTemplate(dataSource);
+    //    jdbcTemplate = new JdbcTemplate(dataSource);
     //}
 
     @Override
     public void save(Employee e) {
-        
         getJdbcTemplate().update(
                 "INSERT INTO employee(name,phone) VALUES (?,?)",
                 e.getName(), e.getPhone());

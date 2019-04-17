@@ -3,12 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-
-    <!-- 省略 classpath -->
-    <!--<import resource="com/bing/lan/spring/day1/_01_helloWorld/HelloWorldTest-context.xml"/>-->
-
-
-    <import resource="classpath:com/bing/lan/spring/day1/_01_ioc/_01_helloWorld/HelloWorldTest-context.xml"/>
-    <!--<import resource=""/>-->
+    <bean id="helloWorld" class="com.bing.lan.spring.day1._01_ioc._01_helloWorld.HelloWorld"/>
 
 </beans>
