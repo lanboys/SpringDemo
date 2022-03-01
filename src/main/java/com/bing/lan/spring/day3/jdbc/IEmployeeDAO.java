@@ -19,4 +19,6 @@ public interface IEmployeeDAO {
     Employee getByPhone(String phone);
 
     List<Employee> list();
+
+    void updateNoTransaction(Long id, Employee newEmployee);
 }

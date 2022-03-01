@@ -109,4 +109,14 @@ public class EmployeeDAOImpl extends JdbcDaoSupport implements IEmployeeDAO {
 
         return query;
     }
+
+    /**
+     * 测试没有配置事务时，存在的问题，没有保证原子性
+     */
+    @Override
+    public void updateNoTransaction(Long id, Employee newEmployee) {
+        delete(id);// 执行成功
+        int i = 1 / 0;
+        save(newEmployee);// 未执行
+    }
 }

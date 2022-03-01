@@ -48,4 +48,9 @@ public class EmployeeServiceImpl implements IEmployeeService {
     public List<Employee> list() {
         return employeeDAO.list();
     }
+
+    @Override
+    public void updateNoTransaction(Long id, Employee newEmployee) {
+        employeeDAO.updateNoTransaction(id, newEmployee);
+    }
 }

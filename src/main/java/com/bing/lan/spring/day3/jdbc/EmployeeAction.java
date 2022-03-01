@@ -51,4 +51,8 @@ public class EmployeeAction {
     public List<Employee> list() {
         return employeeService.list();
     }
+
+    void updateNoTransaction(Long id, Employee newEmployee) {
+        employeeService.updateNoTransaction(id, newEmployee);
+    }
 }

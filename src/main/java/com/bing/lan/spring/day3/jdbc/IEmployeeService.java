@@ -17,4 +17,6 @@ public interface IEmployeeService {
     Employee get(Long id);
 
     List<Employee> list();
+
+    void updateNoTransaction(Long id, Employee newEmployee);
 }
