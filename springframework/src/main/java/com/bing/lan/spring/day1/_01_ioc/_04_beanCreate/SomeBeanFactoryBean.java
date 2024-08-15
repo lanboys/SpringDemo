@@ -8,10 +8,15 @@ import org.springframework.beans.factory.FactoryBean;
 
 public class SomeBeanFactoryBean implements FactoryBean<SomeBean> {
 
+  public SomeBeanFactoryBean() {
+    System.out.println("SomeBeanFactoryBean(): 工厂bean 构造方法");
+  }
+
   @Override
   public SomeBean getObject() throws Exception {
     SomeBean someBean = new SomeBean();
     someBean.init();
+    System.out.println("getObject(): 这里是使用时才真正创建，注释说也可以提前创建，看到具体案例再验证吧");
     return someBean;
   }
 

@@ -26,12 +26,12 @@ public class BeanCreateTest {
   @Test
   public void test() {
     someBean1 = mBeanFactory.getBean("someBean1", SomeBean.class);
-    someBean1.sayHello();
+    someBean1.sayHello(1);
     someBean2 = mBeanFactory.getBean("someBean2", SomeBean.class);
-    someBean2.sayHello();
+    someBean2.sayHello(2);
     someBean3 = mBeanFactory.getBean("someBean3", SomeBean.class);
-    someBean3.sayHello();
+    someBean3.sayHello(3);
     someBean4 = mBeanFactory.getBean("someBean4", SomeBean.class);
-    someBean4.sayHello();
+    someBean4.sayHello(4);
   }
 }

@@ -6,8 +6,12 @@ package com.bing.lan.spring.day1._01_ioc._04_beanCreate;
 
 public class SomeBeanFactory {
 
+  public SomeBeanFactory() {
+    System.out.println("SomeBeanFactory(): 工厂实例 构造方法");
+  }
+
   public static SomeBean staticCreate() {
-    System.out.println("staticCreate(): 工厂方法构建bean");
+    System.out.println("staticCreate(): 静态工厂方法构建bean");
     SomeBean someBean = new SomeBean();
     someBean.init();
     return someBean;

@@ -7,7 +7,7 @@ package com.bing.lan.spring.day1._01_ioc._04_beanCreate;
 public class SomeBean {
 
   public static SomeBean create() {
-    System.out.println("create(): 工厂方法构建bean");
+    System.out.println("create(): 自身静态工厂方法构建bean");
     SomeBean someBean = new SomeBean();
     someBean.init();
     return someBean;
@@ -21,7 +21,7 @@ public class SomeBean {
     System.out.println("init(): 初始化方法");
   }
 
-  public void sayHello() {
-    System.out.println("sayHello(): ");
+  public void sayHello(int i) {
+    System.out.println("sayHello(): " + i);
   }
 }

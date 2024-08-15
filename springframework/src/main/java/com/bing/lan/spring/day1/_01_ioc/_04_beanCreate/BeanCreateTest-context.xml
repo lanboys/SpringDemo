@@ -17,8 +17,10 @@
           factory-method="staticCreate"/>
 
     <!-- 实例工厂方法 -->
+    <!-- 和静态工厂方法比较，多了一个工厂实例 -->
     <bean id="someBeanFactory"
           class="com.bing.lan.spring.day1._01_ioc._04_beanCreate.SomeBeanFactory"/>
+
     <bean id="someBean3" class="com.bing.lan.spring.day1._01_ioc._04_beanCreate.SomeBeanFactory"
           factory-method="create" factory-bean="someBeanFactory"/>
 
