@@ -44,19 +44,21 @@ public class TranscationManager {
     System.out.println("rollback(): 异常是：" + throwable.getLocalizedMessage());
   }
 
-  @Around("pc()")
+  // 可以与上面同时开启
+  // @Around("pc()")
   public void around(ProceedingJoinPoint pjp) {
-    System.out.println("around(): 环绕通知");
+    System.out.println("--- around(): 环绕通知");
 
-    begin();
+    System.out.println("--- around(): 开启事务");
     try {
       pjp.proceed();
-      commit();
+      System.out.println("--- around(): 正常结束之后 提交事务");
     } catch (Throwable throwable) {
-      throwable.printStackTrace();
-      rollback(throwable);
+      // throwable.printStackTrace();
+      System.out.println("--- around(): 出现异常 事务回滚");
+      System.out.println("--- around(): 异常是：" + throwable.getLocalizedMessage());
     } finally {
-      finallyInvoke();
+      System.out.println("--- around(): finally 调用");
     }
   }
 }
