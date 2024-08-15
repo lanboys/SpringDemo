@@ -76,16 +76,22 @@ public class JdbcTest {
     }
     Employee oldEmployee = list.get(0);
     System.out.println("oldEmployee: " + oldEmployee);
+    // 此时数据库剩下 1 条数据
+
     Employee newEmployee = new Employee();
     newEmployee.setPhone(oldEmployee.getPhone() + "1111");
     newEmployee.setName(oldEmployee.getName());
     System.out.println("newEmployee: " + newEmployee);
     try {
+      // 里面会抛异常，正常事务来说，数据库数据没有变化
       employeeAction.updateNoTransaction(oldEmployee.getId(), newEmployee);
     } catch (Exception e) {
       //  忽略
     }
 
-    testList();// 检查有多少条数据：期望 1 条，实际是 0 条, 加上事务后，期望值正确
+    // 检查有多少条数据：期望 1 条，
+    // 加上事务后，期望值正确，
+    // 不加事务时，期望值不对，是 0 条,
+    testList();
   }
 }

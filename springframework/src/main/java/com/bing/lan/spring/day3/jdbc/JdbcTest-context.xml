@@ -29,7 +29,9 @@
     </bean>
 
     <tx:advice id="txAdvice" transaction-manager="txManager">
+        <!-- 测试不加事务时，注释掉下面 -->
         <tx:attributes>
+            <!--需要加事务的方法 -->
             <tx:method name="updateNoTransaction"/>
         </tx:attributes>
     </tx:advice>
